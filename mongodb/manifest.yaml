@@ -47,7 +47,7 @@ metadata:
     component: mongodb
     tier: db 
 spec:
-  replicas: 2
+  replicas: 1
   serviceName: mongodb-service
   selector:
     matchLabels:
