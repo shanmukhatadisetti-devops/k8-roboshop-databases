@@ -53,7 +53,7 @@ spec:
         component: catalogue
         tier: backend
     spec:
-      conatiners:
+      containers:
       - name: catalogue
         image: shanmukhatadisetti/catalogue:v1
         imagePullPolicy: Always
